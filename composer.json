@@ -1,0 +1,20 @@
+{
+  "name": "totallywicked/rick-and-morty",
+  "description": "The Totally Wicked PHP developer test",
+  "type": "project",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  
+  "autoload": {
+        "psr-4": {
+            "RickMorty\\": "src/",
+            "Core\\": "core/"
+        },
+        "files" : [
+            "config/web.php"
+        ]
+    }
+}
