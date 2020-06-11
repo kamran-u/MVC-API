@@ -1,1 +1,1 @@
-# Basic MVC sutructure consuming rick-and-morty API
+Basic MVC structure in PHP consuming rick-and-morty API
